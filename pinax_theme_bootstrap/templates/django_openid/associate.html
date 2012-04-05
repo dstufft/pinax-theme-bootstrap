@@ -7,7 +7,7 @@
 
 {% block body %}
 <h1>{% trans "Verify this Association" %}</h1>
-<p>You have begun to associate <strong>{{ specific_openid }}</strong> with your existing account.  This will allow you to sign in as <strong>{% user_display user %}</strong> using that OpenID.  Click below to verify that association.</p>
+<p>{% blocktrans %}You have begun to associate <strong>{{ specific_openid }}</strong> with your existing account.  This will allow you to sign in as <strong>{% user_display user %}</strong> using that OpenID.  Click below to verify that association.{% endblocktrans %}</p>
 
 <form id="openid-verify-association" action="{{ action }}" method="POST">
         {% csrf_token %}
@@ -15,7 +15,7 @@
         {% if next %}
             <input type="hidden" name="next" value="{{ next }}">
         {% endif %}
-        <input class="btn btn-primary" type="submit" value="Verify Association" />
-        <a class="btn" href="/openid/associations/">Decline</a>
+        <input class="btn btn-primary" type="submit" value="{% trans "Verify Association" %}" />
+        <a class="btn" href="/openid/associations/">{% trans "Decline" %}</a>
 </form>
 {% endblock %}

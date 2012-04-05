@@ -8,9 +8,9 @@
 {% block head_title %}{% trans "Log In" %}{% endblock %}
 
 {% block body %}
-    
+
     <h1>{% trans "Log In" %}</h1>
-    
+
     <div class="row">
         <div class="span8">
             {% if user.is_authenticated %}
@@ -28,7 +28,7 @@
                     <a href="{% url acct_passwd_reset %}">{% trans "Forgot password?" %}</a>
                 </p>
             {% endif %}
-            
+
             <form method="POST" action="{% url acct_login %}" autocapitalize="off" class="form-horizontal">
                 <fieldset>
                     {% csrf_token %}
@@ -41,14 +41,14 @@
                     </div>
                 </fieldset>
             </form>
-            
+
             {% ifsetting ACCOUNT_USE_OPENID %}
             <form action="/openid/register/" method="POST" autocapitalize="off" class="form-horizontal">
                 <fieldset>
                     <legend>{% trans "Or sign in with your OpenID" %}</legend>
                     {% csrf_token %}
                     <div class="control-group">
-                        <label class="control-label" for="id_username">OpenID Identifier</label>
+                        <label class="control-label" for="id_username">{% trans "OpenID Identifier" %}</label>
                         <div class="controls">
                             <input class="openid" type="text" name="openid_url" />
                         </div>
@@ -59,11 +59,11 @@
                 </fieldset>
             </form>
             {% endifsetting %}
-            
+
             {% if not user.is_authenticated %}
                 <p>{% blocktrans %}If you have any trouble logging in to your account, contact us at <a href="mailto:{{ CONTACT_EMAIL }}">{{ CONTACT_EMAIL }}</a>.{% endblocktrans %}</p>
             {% endif %}
-            
+
         </div>
         <div class="span4">
             {% include "account/_login_sidebar.html" %}

@@ -1,1 +1,1 @@
-Create an account on {{ domain }}
+{% load i18n %}{% blocktrans %}Create an account on {{ domain }}{% endblocktrans %}

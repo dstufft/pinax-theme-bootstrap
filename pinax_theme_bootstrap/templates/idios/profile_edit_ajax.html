@@ -8,13 +8,13 @@
 
 <form class="ajax" method="POST" action="{% url profile_edit %}">
     {% csrf_token %}
-    
+
     <div class="modal-body">
         {{ profile_form|as_bootstrap }}
     </div>
-    
+
     <div class="modal-footer">
-        <button type="submit" class="btn btn-primary">Update</button>
-        <a href="#" class="btn modal-close">Cancel</a>
+        <button type="submit" class="btn btn-primary">{% trans "Update" %}</button>
+        <a href="#" class="btn modal-close">{% trans "Cancel" %}</a>
     </div>
 </form>

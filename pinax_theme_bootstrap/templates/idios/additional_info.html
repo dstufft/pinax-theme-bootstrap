@@ -2,18 +2,18 @@
 
 {% load bootstrap_tags %}
 
-{% block head_title %}Additional Info{% endblock %}
+{% block head_title %}{% trans "Additional Info" %}{% endblock %}
 
 {% block body %}
-    <h1>Additional Info</h1>
-    <p>Please fill out the following form so we know a little about you.</p>
-    
+    <h1>{% trans "Additional Info" %}</h1>
+    <p>{% trans "Please fill out the following form so we know a little about you." %}</p>
+
     <form method="POST" action="">
         <fieldset>
             {% csrf_token %}
             {{ form|as_bootstrap }}
             <div class="form-actions">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">{% trans "Submit" %}</button>
             </div>
         </fieldset>
     </form>
