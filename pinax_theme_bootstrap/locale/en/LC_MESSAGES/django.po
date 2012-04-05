@@ -1,0 +1,679 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-05 16:47-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/404.html:5
+msgid "Not Found"
+msgstr ""
+
+#: templates/404.html:8
+msgid "We're sorry but that page could not be found."
+msgstr ""
+
+#: templates/500.html:5
+msgid "Server Error"
+msgstr ""
+
+#: templates/500.html:8
+msgid ""
+"We're sorry but a server error has occurred. We've been notified and will "
+"look into it as soon as possible."
+msgstr ""
+
+#: templates/_account_bar.html:11 templates/account/base.html:10
+#: templates/account/email.html:6
+msgid "Account"
+msgstr ""
+
+#: templates/_account_bar.html:13
+msgid "Admin"
+msgstr ""
+
+#: templates/_account_bar.html:16
+msgid "Log out"
+msgstr ""
+
+#: templates/_account_bar.html:23
+#, python-format
+msgid ""
+"\n"
+"                <li><a href=\"%(acct_login_url)s\">Log in</a></li>\n"
+"                <li class=\"navbar-text\">or</li>\n"
+"                <li><a href=\"%(acct_signup_url)s\">Sign up</a></li>\n"
+"            "
+msgstr ""
+
+#: templates/_account_bar.html:29 templates/account/login.html:40
+#: templates/account/login.html.py:57 templates/account/signup.html:17
+#: templates/account/signup.html.py:47 templates/django_openid/login.html:19
+msgid "Log in"
+msgstr ""
+
+#: templates/account/_terms.html:5
+#, python-format
+msgid ""
+"By clicking \"Sign Up\", you are indicating that you have read and agree to "
+"the <a href=\"%(terms_url)s\">Terms of Use</a> and <a href=\"%(privacy_url)s"
+"\">Privacy Policy</a>."
+msgstr ""
+
+#: templates/account/base.html:11 templates/account/email.html:9
+msgid "Email Addresses"
+msgstr ""
+
+#: templates/account/base.html:13 templates/django_openid/associations.html:5
+msgid "OpenID Associations"
+msgstr ""
+
+#: templates/account/base.html:16 templates/account/password_change.html:6
+#: templates/account/password_change.html:9
+#: templates/account/password_reset_from_key.html:5
+#: templates/account/password_reset_from_key.html:8
+msgid "Change Password"
+msgstr ""
+
+#: templates/account/base.html:18 templates/account/password_set.html:6
+#: templates/account/password_set.html:9
+msgid "Set Password"
+msgstr ""
+
+#: templates/account/base.html:21 templates/account/password_delete.html:5
+#: templates/account/password_delete.html:8
+msgid "Delete Password"
+msgstr ""
+
+#: templates/account/base.html:24 templates/account/language_change.html:6
+#: templates/account/language_change.html:9
+msgid "Language"
+msgstr ""
+
+#: templates/account/base.html:26 templates/account/timezone_change.html:6
+#: templates/account/timezone_change.html:9
+msgid "Timezone"
+msgstr ""
+
+#: templates/account/email.html:18
+msgid "verified"
+msgstr ""
+
+#: templates/account/email.html:20
+msgid "primary"
+msgstr ""
+
+#: templates/account/email.html:28
+msgid "Make primary"
+msgstr ""
+
+#: templates/account/email.html:33
+msgid "unverified"
+msgstr ""
+
+#: templates/account/email.html:40
+msgid "Re-send verification email"
+msgstr ""
+
+#: templates/account/email.html:51
+msgid "Remove"
+msgstr ""
+
+#: templates/account/email.html:59
+msgid ""
+"You should really add an email address so you can receive notifications, "
+"reset your password if you forget it, etc."
+msgstr ""
+
+#: templates/account/email.html:65
+msgid "Add Email Address"
+msgstr ""
+
+#: templates/account/email.html:70
+msgid "Add"
+msgstr ""
+
+#: templates/account/language_change.html:11
+msgid "This site can be used in your preferred language."
+msgstr ""
+
+#: templates/account/language_change.html:18
+msgid "Change my language"
+msgstr ""
+
+#: templates/account/login.html:8 templates/account/login.html.py:12
+msgid "Log In"
+msgstr ""
+
+#: templates/account/login.html:19 templates/account/password_reset.html:13
+#: templates/account/password_reset_done.html:12
+msgid "Note"
+msgstr ""
+
+#: templates/account/login.html:20 templates/account/password_reset.html:13
+#: templates/account/password_reset_done.html:12
+#, python-format
+msgid "you are already logged in as %(user_display)s."
+msgstr ""
+
+#: templates/account/login.html:25
+#, python-format
+msgid "Don't have an account? <a href=\"%(signup_url)s\">Sign up</a>!"
+msgstr ""
+
+#: templates/account/login.html:28
+msgid "Forgot password?"
+msgstr ""
+
+#: templates/account/login.html:48 templates/account/signup.html:38
+msgid "Or sign in with your OpenID"
+msgstr ""
+
+#: templates/account/login.html:51 templates/account/signup.html:41
+#: templates/django_openid/associations.html:40
+msgid "OpenID Identifier"
+msgstr ""
+
+#: templates/account/login.html:64 templates/django_openid/login.html:28
+#, python-format
+msgid ""
+"If you have any trouble logging in to your account, contact us at <a href="
+"\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+msgstr ""
+
+#: templates/account/logout.html:5
+msgid "Logged Out"
+msgstr ""
+
+#: templates/account/logout.html:8
+msgid "You've been logged out."
+msgstr ""
+
+#: templates/account/password_change.html:16
+#: templates/account/password_reset_from_key.html:20
+msgid "Change password"
+msgstr ""
+
+#: templates/account/password_delete.html:10
+msgid ""
+"You may delete your password since you are currently logged in using OpenID."
+msgstr ""
+
+#: templates/account/password_delete.html:13
+msgid "Delete my password"
+msgstr ""
+
+#: templates/account/password_delete_done.html:5
+#: templates/account/password_delete_done.html:8
+msgid "Password Deleted"
+msgstr ""
+
+#: templates/account/password_delete_done.html:10
+msgid "Your password has been deleted."
+msgstr ""
+
+#: templates/account/password_reset.html:7
+#: templates/account/password_reset.html:10
+#: templates/account/password_reset_done.html:6
+#: templates/account/password_reset_done.html:9
+msgid "Password Reset"
+msgstr ""
+
+#: templates/account/password_reset.html:16
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
+msgstr ""
+
+#: templates/account/password_reset.html:23
+msgid "Reset my password"
+msgstr ""
+
+#: templates/account/password_reset.html:28
+#, python-format
+msgid ""
+"If you have any trouble resetting your password, contact us at <a href="
+"\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+msgstr ""
+
+#: templates/account/password_reset_done.html:15
+#, python-format
+msgid ""
+"We have sent you an email. If you do not receive it within a few minutes, "
+"contact us at <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+msgstr ""
+
+#: templates/account/password_reset_from_key.html:8
+msgid "Bad Token"
+msgstr ""
+
+#: templates/account/password_reset_from_key.html:12
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+
+#: templates/account/password_reset_from_key.html:25
+msgid "Your password is now changed."
+msgstr ""
+
+#: templates/account/password_reset_key_message.txt:1
+#, python-format
+msgid ""
+"You're receiving this email becuase you or someone else has requested a "
+"password for your user account at Pinax.\n"
+"It can be safely ignored if you did not request a password reset. Click the "
+"link below to reset your password.\n"
+"\n"
+"http://%(domain)s%(password_reset_url)s\n"
+"\n"
+"Thanks for using our site!\n"
+msgstr ""
+
+#: templates/account/password_reset_message.txt:1
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset\n"
+"for your user account.\n"
+"\n"
+"Your new password is: %(new_password)s\n"
+"\n"
+"Your username, in case you've forgotten: %(username)s\n"
+"\n"
+"You should log in as soon as possible and change your password.\n"
+"\n"
+"Thanks for using our site!\n"
+msgstr ""
+
+#: templates/account/password_set.html:16
+msgid "Set password"
+msgstr ""
+
+#: templates/account/signup.html:7 templates/account/signup.html.py:10
+msgid "Sign Up"
+msgstr ""
+
+#: templates/account/signup.html:15
+msgid "You are already logged in."
+msgstr ""
+
+#: templates/account/signup.html:17
+msgid "Already have an account?"
+msgstr ""
+
+#: templates/account/signup.html:30 templates/django_openid/register.html:22
+msgid "Sign up"
+msgstr ""
+
+#: templates/account/signup.html:55 templates/django_openid/register.html:32
+#, python-format
+msgid ""
+"If you have any trouble creating your account, contact us at <a href="
+"\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+msgstr ""
+
+#: templates/account/timezone_change.html:11
+msgid ""
+"This site can localize all times into your preferred timezone. Change your "
+"timezone below."
+msgstr ""
+
+#: templates/account/timezone_change.html:18
+msgid "Change my timezone"
+msgstr ""
+
+#: templates/account/verification_sent.html:5
+#: templates/account/verification_sent.html:8
+msgid "Verify your email address"
+msgstr ""
+
+#: templates/account/verification_sent.html:10
+#, python-format
+msgid ""
+"We have sent you an email to <b>%(email)s</b> for verification. Follow the "
+"link provided to finalize the signup process. If you do not receive it "
+"within a few minutes, contact us at <a href=\"mailto:%(CONTACT_EMAIL)s\">"
+"%(CONTACT_EMAIL)s</a>."
+msgstr ""
+
+#: templates/account/verification_sent.html:11
+msgid "Go back"
+msgstr ""
+
+#: templates/django_openid/already_logged_in.html:5
+#: templates/django_openid/already_logged_in.html:8
+msgid "Already logged in"
+msgstr ""
+
+#: templates/django_openid/already_logged_in.html:10
+#, python-format
+msgid ""
+"You are already logged into the site. To login with a different OpenID "
+"please <a href=\"/openid/logout/?next=%(url_acct_logout)s\">logout</a> first."
+msgstr ""
+
+#: templates/django_openid/associate.html:6
+#: templates/django_openid/associate.html:10
+msgid "Verify this Association"
+msgstr ""
+
+#: templates/django_openid/associate.html:11
+#, python-format
+msgid ""
+"You have begun to associate <strong>%(specific_openid)s</strong> with your "
+"existing account.  This will allow you to sign in as <strong>"
+"%(user_display)s</strong> using that OpenID.  Click below to verify that "
+"association."
+msgstr ""
+
+#: templates/django_openid/associate.html:19
+msgid "Verify Association"
+msgstr ""
+
+#: templates/django_openid/associate.html:20
+msgid "Decline"
+msgstr ""
+
+#: templates/django_openid/associations.html:8
+msgid "Manage OpenID Associations"
+msgstr ""
+
+#: templates/django_openid/associations.html:12
+#, python-format
+msgid ""
+"You have not set a password for this user account. You are unable to remove "
+"OpenID associations until you <a href=\"%(acct_passwd_set_url)s\">set a "
+"password</a>."
+msgstr ""
+
+#: templates/django_openid/associations.html:16
+#, python-format
+msgid ""
+"Your account is currently associated with the following OpenID %(buttons)s:"
+msgstr ""
+
+#: templates/django_openid/associations.html:26
+msgid "remove"
+msgstr ""
+
+#: templates/django_openid/associations.html:33
+msgid "To associate a new OpenID with this account, sign in with it here:"
+msgstr ""
+
+#: templates/django_openid/associations.html:46
+msgid "Authenticate and associate with this account"
+msgstr ""
+
+#: templates/django_openid/error.html:5 templates/django_openid/error.html:8
+msgid "Error using OpenID"
+msgstr ""
+
+#: templates/django_openid/login.html:8
+msgid "Login"
+msgstr ""
+
+#: templates/django_openid/login.html:12
+msgid "Log In to OpenID"
+msgstr ""
+
+#: templates/django_openid/register.html:6
+#: templates/django_openid/register.html:9
+msgid "Choose a Username"
+msgstr ""
+
+#: templates/django_openid/register.html:12
+msgid "Please correct the errors below:"
+msgstr ""
+
+#: templates/django_openid/register.html:15
+msgid ""
+"Now that you have logged in with your OpenID, we need you to choose a "
+"username for this site."
+msgstr ""
+
+#: templates/django_openid/register.html:30
+#, python-format
+msgid ""
+"<strong>Already have an account?</strong> <a href=\"%(acct_login_openid_url)s"
+"\">Log in</a> to associate your OpenID with your existing account."
+msgstr ""
+
+#: templates/django_openid/register.html:31
+#, python-format
+msgid ""
+"By clicking &quot;Sign Up&quot;, you are indicating that you have read and "
+"agree to the <a href=\"%(terms_url)s\">Terms of Use</a> and <a href="
+"\"%(privacy_url)s\">Privacy Policy</a>."
+msgstr ""
+
+#: templates/django_openid/registration_closed.html:5
+#: templates/django_openid/registration_closed.html:8
+msgid "Signup closed"
+msgstr ""
+
+#: templates/django_openid/registration_closed.html:10
+msgid ""
+"Whoops, you can't register for an account now. This site is currently closed "
+"for sign-up."
+msgstr ""
+
+#: templates/emailconfirmation/confirm_email.html:6
+msgid "Confirm Email"
+msgstr ""
+
+#: templates/emailconfirmation/confirm_email.html:10
+msgid "Email Confirmed"
+msgstr ""
+
+#: templates/emailconfirmation/confirm_email.html:12
+#, python-format
+msgid ""
+"You have confirmed that %(email)s is an email address for user "
+"'%(user_display)s'."
+msgstr ""
+
+#: templates/emailconfirmation/confirm_email.html:14
+msgid "Invalid confirmation key."
+msgstr ""
+
+#: templates/idios/_profile_form.html:12
+#: templates/idios/profile_edit_ajax.html:17
+msgid "Update"
+msgstr ""
+
+#: templates/idios/_profile_form.html:13
+#: templates/idios/profile_edit_ajax.html:18
+msgid "Cancel"
+msgstr ""
+
+#: templates/idios/additional_info.html:5
+#: templates/idios/additional_info.html:8
+msgid "Additional Info"
+msgstr ""
+
+#: templates/idios/additional_info.html:9
+msgid "Please fill out the following form so we know a little about you."
+msgstr ""
+
+#: templates/idios/additional_info.html:16
+#: templates/signup_codes/failure.html:20
+msgid "Submit"
+msgstr ""
+
+#: templates/idios/base.html:10
+msgid "Profile"
+msgstr ""
+
+#: templates/idios/base.html:11
+msgid "Your Profile"
+msgstr ""
+
+#: templates/idios/base.html:12 templates/idios/profiles.html:7
+#: templates/idios/profiles.html.py:10
+msgid "All Profiles"
+msgstr ""
+
+#: templates/idios/profile.html:6 templates/idios/profile.html.py:11
+#, python-format
+msgid "Profile for %(page_user_display)s"
+msgstr ""
+
+#: templates/idios/profile.html:16
+msgid "Edit profile"
+msgstr ""
+
+#: templates/idios/profile_edit.html:5 templates/idios/profile_edit.html:9
+#: templates/idios/profile_edit_ajax.html:5
+msgid "Edit Profile"
+msgstr ""
+
+#: templates/idios/profile_edit_ajax_success.html:4
+msgid "Success!"
+msgstr ""
+
+#: templates/idios/profile_edit_ajax_success.html:9
+msgid "Your profile has been successfully updated!"
+msgstr ""
+
+#: templates/idios/profile_edit_ajax_success.html:13
+msgid "Close"
+msgstr ""
+
+#: templates/notification/base.html:13 templates/notification/base.html:14
+#: templates/notification/notices.html:8
+msgid "Notices"
+msgstr ""
+
+#: templates/notification/base.html:15
+#: templates/notification/notice_settings.html:9
+msgid "Settings"
+msgstr ""
+
+#: templates/notification/notice_settings.html:6
+msgid "Notification Settings"
+msgstr ""
+
+#: templates/notification/notice_settings.html:15
+msgid "Primary email"
+msgstr ""
+
+#: templates/notification/notice_settings.html:17
+#, python-format
+msgid "change under <a href=\"%(email_url)s\">Account</a>"
+msgstr ""
+
+#: templates/notification/notice_settings.html:21
+#, python-format
+msgid ""
+"\n"
+"                You do not have a verified email address to which notices "
+"can be sent.\n"
+"                You can add one by going to <a href=\"%(email_url)s"
+"\">Account</a>.\n"
+"                "
+msgstr ""
+
+#: templates/notification/notice_settings.html:32
+msgid "Notification Type"
+msgstr ""
+
+#: templates/notification/notice_settings.html:50
+msgid "Change"
+msgstr ""
+
+#: templates/notification/notices.html:15
+msgid "Mark all unseen notices seen"
+msgstr ""
+
+#: templates/notification/notices.html:21
+msgid "MONTH_DAY_FORMAT"
+msgstr ""
+
+#: templates/notification/notices.html:39
+msgid "No notices."
+msgstr ""
+
+#: templates/pagination/pagination.html:8
+#: templates/pagination/pagination.html:11
+msgid "Previous"
+msgstr ""
+
+#: templates/pagination/pagination.html:21
+#: templates/pagination/pagination.html:23
+msgid "Next"
+msgstr ""
+
+#: templates/signup_codes/admin_invite_user.html:4
+msgid "Home"
+msgstr ""
+
+#: templates/signup_codes/admin_invite_user.html:4
+msgid "Invite user"
+msgstr ""
+
+#: templates/signup_codes/admin_invite_user.html:8
+msgid ""
+"Invite a user given an e-mail address. The user will be e-mailed a signup "
+"code to create their account on this website."
+msgstr ""
+
+#: templates/signup_codes/failure.html:5 templates/signup_codes/failure.html:8
+msgid "Incorrect Code"
+msgstr ""
+
+#: templates/signup_codes/failure.html:11
+#, python-format
+msgid "The code <b>%(code)s</b> is incorrect."
+msgstr ""
+
+#: templates/signup_codes/failure.html:13
+msgid "You must specify a code."
+msgstr ""
+
+#: templates/signup_codes/failure.html:16
+msgid "Try again:"
+msgstr ""
+
+#: templates/signup_codes/invite_user.txt:1
+#, python-format
+msgid ""
+"You have been invited to sign up at %(domain)s.\n"
+"\n"
+"http://%(domain)s/account/signup/?code=%(signup_code.code)s"
+msgstr ""
+
+#: templates/signup_codes/invite_user_subject.txt:1
+#, python-format
+msgid "Create an account on %(domain)s"
+msgstr ""
+
+#: templates/waitinglist/list_signup.html:6
+#: templates/waitinglist/success.html:5
+msgid "Welcome"
+msgstr ""
+
+#: templates/waitinglist/list_signup.html:10
+msgid "Sign up for the waiting list"
+msgstr ""
+
+#: templates/waitinglist/list_signup.html:12
+msgid "Give us your email address and you'll be added to the waiting list"
+msgstr ""
+
+#: templates/waitinglist/success.html:9
+msgid "You have been added to the waiting list."
+msgstr ""
