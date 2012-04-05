@@ -18,10 +18,12 @@
         </li>
     {% else %}
         {% ifsetting ACCOUNT_OPEN_SIGNUP %}
+            {% url acct_login as acct_login_url %}
+            {% url acct_signup as acct_signup_url %}
             {% blocktrans %}
-                <li><a href="{% url acct_login %}">Log in</a></li>
+                <li><a href="{{ acct_login_url }}">Log in</a></li>
                 <li class="navbar-text">or</li>
-                <li><a href="{% url acct_signup %}">Sign up</a></li>
+                <li><a href="{{ acct_signup_url }}">Sign up</a></li>
             {% endblocktrans %}
         {% else %}
             <li><a href="{% url acct_login %}">{% trans "Log in" %}</a></li>

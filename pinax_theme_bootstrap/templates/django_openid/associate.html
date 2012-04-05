@@ -6,8 +6,9 @@
 {% block head_title %}{% trans "Verify this Association" %}{% endblock %}
 
 {% block body %}
+{% user_display user as user_display %}
 <h1>{% trans "Verify this Association" %}</h1>
-<p>{% blocktrans %}You have begun to associate <strong>{{ specific_openid }}</strong> with your existing account.  This will allow you to sign in as <strong>{% user_display user %}</strong> using that OpenID.  Click below to verify that association.{% endblocktrans %}</p>
+<p>{% blocktrans %}You have begun to associate <strong>{{ specific_openid }}</strong> with your existing account.  This will allow you to sign in as <strong>{{ user_display }}</strong> using that OpenID.  Click below to verify that association.{% endblocktrans %}</p>
 
 <form id="openid-verify-association" action="{{ action }}" method="POST">
         {% csrf_token %}
