@@ -1,0 +1,678 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Minhee Hong <hong.minhee@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: Crate.io\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-05 16:47-0400\n"
+"PO-Revision-Date: 2012-04-17 12:21+0000\n"
+"Last-Translator: Minhee Hong <hong.minhee@gmail.com>\n"
+"Language-Team: Korean (Korea) (http://www.transifex.net/projects/p/crateio/language/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: templates/404.html:5
+msgid "Not Found"
+msgstr "페이지를 찾을 수 없음"
+
+#: templates/404.html:8
+msgid "We're sorry but that page could not be found."
+msgstr "요청하신 페이지가 존재하지 않습니다."
+
+#: templates/500.html:5
+msgid "Server Error"
+msgstr "서버 오류"
+
+#: templates/500.html:8
+msgid ""
+"We're sorry but a server error has occurred. We've been notified and will "
+"look into it as soon as possible."
+msgstr "죄송합니다. 서버에 오류가 발생했습니다. 이 문제는 운영진에게 전달되었고 곧 정상화될 것입니다."
+
+#: templates/_account_bar.html:11 templates/account/base.html:10
+#: templates/account/email.html:6
+msgid "Account"
+msgstr "계정"
+
+#: templates/_account_bar.html:13
+msgid "Admin"
+msgstr "관리자"
+
+#: templates/_account_bar.html:16
+msgid "Log out"
+msgstr "로그아웃"
+
+#: templates/_account_bar.html:23
+#, python-format
+msgid ""
+"\n"
+"                <li><a href=\"%(acct_login_url)s\">Log in</a></li>\n"
+"                <li class=\"navbar-text\">or</li>\n"
+"                <li><a href=\"%(acct_signup_url)s\">Sign up</a></li>\n"
+"            "
+msgstr "\n                <li><a href=\"%(acct_login_url)s\">로그인</a></li>\n                <li class=\"navbar-text\">또는</li>\n                <li><a href=\"%(acct_signup_url)s\">등록</a></li>\n            "
+
+#: templates/_account_bar.html:29 templates/account/login.html:40
+#: templates/account/login.html.py:57 templates/account/signup.html:17
+#: templates/account/signup.html.py:47 templates/django_openid/login.html:19
+msgid "Log in"
+msgstr "로그인"
+
+#: templates/account/_terms.html:5
+#, python-format
+msgid ""
+"By clicking \"Sign Up\", you are indicating that you have read and agree to "
+"the <a href=\"%(terms_url)s\">Terms of Use</a> and <a "
+"href=\"%(privacy_url)s\">Privacy Policy</a>."
+msgstr "등록을 계속 진행하시면 <a href=\"%(terms_url)s\">이용 약관</a>과 <a href=\"%(privacy_url)s\">개인 정보 보호 정책</a>에 동의한 것으로 간주됩니다."
+
+#: templates/account/base.html:11 templates/account/email.html:9
+msgid "Email Addresses"
+msgstr "이메일 주소"
+
+#: templates/account/base.html:13 templates/django_openid/associations.html:5
+msgid "OpenID Associations"
+msgstr "OpenID 연결"
+
+#: templates/account/base.html:16 templates/account/password_change.html:6
+#: templates/account/password_change.html:9
+#: templates/account/password_reset_from_key.html:5
+#: templates/account/password_reset_from_key.html:8
+msgid "Change Password"
+msgstr "암호 변경"
+
+#: templates/account/base.html:18 templates/account/password_set.html:6
+#: templates/account/password_set.html:9
+msgid "Set Password"
+msgstr "암호 설정"
+
+#: templates/account/base.html:21 templates/account/password_delete.html:5
+#: templates/account/password_delete.html:8
+msgid "Delete Password"
+msgstr "암호 없애기"
+
+#: templates/account/base.html:24 templates/account/language_change.html:6
+#: templates/account/language_change.html:9
+msgid "Language"
+msgstr "언어"
+
+#: templates/account/base.html:26 templates/account/timezone_change.html:6
+#: templates/account/timezone_change.html:9
+msgid "Timezone"
+msgstr "시간대"
+
+#: templates/account/email.html:18
+msgid "verified"
+msgstr "확인됨"
+
+#: templates/account/email.html:20
+msgid "primary"
+msgstr "기본"
+
+#: templates/account/email.html:28
+msgid "Make primary"
+msgstr "기본으로"
+
+#: templates/account/email.html:33
+msgid "unverified"
+msgstr "확인 안됨"
+
+#: templates/account/email.html:40
+msgid "Re-send verification email"
+msgstr "학인 메일 재발송"
+
+#: templates/account/email.html:51
+msgid "Remove"
+msgstr "지우기"
+
+#: templates/account/email.html:59
+msgid ""
+"You should really add an email address so you can receive notifications, "
+"reset your password if you forget it, etc."
+msgstr "암호를 재설정하거나 알림 메세지를 받기 위해 꼭 이메일 주소를 등록하는게 좋을 겁니다."
+
+#: templates/account/email.html:65
+msgid "Add Email Address"
+msgstr "이메일 주소 추가"
+
+#: templates/account/email.html:70
+msgid "Add"
+msgstr "더하기"
+
+#: templates/account/language_change.html:11
+msgid "This site can be used in your preferred language."
+msgstr "여러분이 원하는 언어를 쓸 수 있습니다."
+
+#: templates/account/language_change.html:18
+msgid "Change my language"
+msgstr "언어 바꾸기"
+
+#: templates/account/login.html:8 templates/account/login.html.py:12
+msgid "Log In"
+msgstr "로그인"
+
+#: templates/account/login.html:19 templates/account/password_reset.html:13
+#: templates/account/password_reset_done.html:12
+msgid "Note"
+msgstr ""
+
+#: templates/account/login.html:20 templates/account/password_reset.html:13
+#: templates/account/password_reset_done.html:12
+#, python-format
+msgid "you are already logged in as %(user_display)s."
+msgstr "이미 %(user_display)s로 로그인되어 있습니다."
+
+#: templates/account/login.html:25
+#, python-format
+msgid "Don't have an account? <a href=\"%(signup_url)s\">Sign up</a>!"
+msgstr "아이디 없으세요? 그럼 <a href=\"%(signup_url)s\">등록</a>하세요!"
+
+#: templates/account/login.html:28
+msgid "Forgot password?"
+msgstr "암호를 잃어버리셨나요?"
+
+#: templates/account/login.html:48 templates/account/signup.html:38
+msgid "Or sign in with your OpenID"
+msgstr "또는 OpenID로 로그인"
+
+#: templates/account/login.html:51 templates/account/signup.html:41
+#: templates/django_openid/associations.html:40
+msgid "OpenID Identifier"
+msgstr "OpenID 주소"
+
+#: templates/account/login.html:64 templates/django_openid/login.html:28
+#, python-format
+msgid ""
+"If you have any trouble logging in to your account, contact us at <a "
+"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+msgstr "로그인하는데 문제가 있으시면 <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>로 문의주세요."
+
+#: templates/account/logout.html:5
+msgid "Logged Out"
+msgstr "로그아웃 됨"
+
+#: templates/account/logout.html:8
+msgid "You've been logged out."
+msgstr "로그아웃 되었습니다"
+
+#: templates/account/password_change.html:16
+#: templates/account/password_reset_from_key.html:20
+msgid "Change password"
+msgstr "암호 변경"
+
+#: templates/account/password_delete.html:10
+msgid ""
+"You may delete your password since you are currently logged in using OpenID."
+msgstr "OpenID를 사용하고 계시므로 원하시면 암호를 없앨 수도 있습니다."
+
+#: templates/account/password_delete.html:13
+msgid "Delete my password"
+msgstr "암호 없애기"
+
+#: templates/account/password_delete_done.html:5
+#: templates/account/password_delete_done.html:8
+msgid "Password Deleted"
+msgstr "암호 없어짐"
+
+#: templates/account/password_delete_done.html:10
+msgid "Your password has been deleted."
+msgstr "이제 암호가 없어졌습니다."
+
+#: templates/account/password_reset.html:7
+#: templates/account/password_reset.html:10
+#: templates/account/password_reset_done.html:6
+#: templates/account/password_reset_done.html:9
+msgid "Password Reset"
+msgstr "암호 변경"
+
+#: templates/account/password_reset.html:16
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
+msgstr "암호를 까먹었나요? 아래 이메일 주소를 입력하시면 암호를 다시 설정하는 메일을 보내드립니다."
+
+#: templates/account/password_reset.html:23
+msgid "Reset my password"
+msgstr "암호 재설정"
+
+#: templates/account/password_reset.html:28
+#, python-format
+msgid ""
+"If you have any trouble resetting your password, contact us at <a "
+"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+msgstr "암호를 재설정하는데 문제가 있으시면 <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>로 문의주세요."
+
+#: templates/account/password_reset_done.html:15
+#, python-format
+msgid ""
+"We have sent you an email. If you do not receive it within a few minutes, "
+"contact us at <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+msgstr "이메일을 보냈습니다. 몇분이 지나도록 이메일이 오지 않으면 <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>로 문의해주세요."
+
+#: templates/account/password_reset_from_key.html:8
+msgid "Bad Token"
+msgstr "잘못된 토큰"
+
+#: templates/account/password_reset_from_key.html:12
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password "
+"reset</a>."
+msgstr "올바른 암호 재설정 링크가 아닙니다. 아마 이 링크가 이미 사용된 적 있을 수도 있습니다. <a href=\"%(passwd_reset_url)s\">암호 재설정</a>을 다시 요청해보세요."
+
+#: templates/account/password_reset_from_key.html:25
+msgid "Your password is now changed."
+msgstr "암호가 변경되었습니다."
+
+#: templates/account/password_reset_key_message.txt:1
+#, python-format
+msgid ""
+"You're receiving this email becuase you or someone else has requested a password for your user account at Pinax.\n"
+"It can be safely ignored if you did not request a password reset. Click the link below to reset your password.\n"
+"\n"
+"http://%(domain)s%(password_reset_url)s\n"
+"\n"
+"Thanks for using our site!\n"
+msgstr ""
+
+#: templates/account/password_reset_message.txt:1
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset\n"
+"for your user account.\n"
+"\n"
+"Your new password is: %(new_password)s\n"
+"\n"
+"Your username, in case you've forgotten: %(username)s\n"
+"\n"
+"You should log in as soon as possible and change your password.\n"
+"\n"
+"Thanks for using our site!\n"
+msgstr ""
+
+#: templates/account/password_set.html:16
+msgid "Set password"
+msgstr "두"
+
+#: templates/account/signup.html:7 templates/account/signup.html.py:10
+msgid "Sign Up"
+msgstr "등록"
+
+#: templates/account/signup.html:15
+msgid "You are already logged in."
+msgstr "이미 로그인된 상태입니다."
+
+#: templates/account/signup.html:17
+msgid "Already have an account?"
+msgstr "이미 아이디 있으세요?"
+
+#: templates/account/signup.html:30 templates/django_openid/register.html:22
+msgid "Sign up"
+msgstr "등록"
+
+#: templates/account/signup.html:55 templates/django_openid/register.html:32
+#, python-format
+msgid ""
+"If you have any trouble creating your account, contact us at <a "
+"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+msgstr "아이디 만드는데 문제가 있으시면 <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>로 문의주세요."
+
+#: templates/account/timezone_change.html:11
+msgid ""
+"This site can localize all times into your preferred timezone. Change your "
+"timezone below."
+msgstr "이 사이트는 여러분이 원하는 시간대로 모든 시간을 표시해줍니다. 다음 중 원하는 시간대를 고르세요."
+
+#: templates/account/timezone_change.html:18
+msgid "Change my timezone"
+msgstr "시간대 바꾸기"
+
+#: templates/account/verification_sent.html:5
+#: templates/account/verification_sent.html:8
+msgid "Verify your email address"
+msgstr "이메일 주소 확인하기"
+
+#: templates/account/verification_sent.html:10
+#, python-format
+msgid ""
+"We have sent you an email to <b>%(email)s</b> for verification. Follow the "
+"link provided to finalize the signup process. If you do not receive it "
+"within a few minutes, contact us at <a "
+"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+msgstr "실제로 있는 이메일인지 확인하기 위해 <b>%(email)s</b>로 이메일을 보냈습니다. 등록을 마무리하기 위해 메일 내용에 들어있는 링크를 눌러주세요. 몇분이 지나도 메일이 오지 않으면 <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>로 문의해주세요."
+
+#: templates/account/verification_sent.html:11
+msgid "Go back"
+msgstr "뒤로 가기"
+
+#: templates/django_openid/already_logged_in.html:5
+#: templates/django_openid/already_logged_in.html:8
+msgid "Already logged in"
+msgstr "이미 로그인됨"
+
+#: templates/django_openid/already_logged_in.html:10
+#, python-format
+msgid ""
+"You are already logged into the site. To login with a different OpenID "
+"please <a href=\"/openid/logout/?next=%(url_acct_logout)s\">logout</a> "
+"first."
+msgstr "이미 로그인되어 있습니다. 다른 OpenID로 로그인하려면 먼저<a href=\"/openid/logout/?next=%(url_acct_logout)s\">로그아웃</a>부터 해주세요."
+
+#: templates/django_openid/associate.html:6
+#: templates/django_openid/associate.html:10
+msgid "Verify this Association"
+msgstr ""
+
+#: templates/django_openid/associate.html:11
+#, python-format
+msgid ""
+"You have begun to associate <strong>%(specific_openid)s</strong> with your "
+"existing account.  This will allow you to sign in as "
+"<strong>%(user_display)s</strong> using that OpenID.  Click below to verify "
+"that association."
+msgstr ""
+
+#: templates/django_openid/associate.html:19
+msgid "Verify Association"
+msgstr "연결 확인"
+
+#: templates/django_openid/associate.html:20
+msgid "Decline"
+msgstr "파기"
+
+#: templates/django_openid/associations.html:8
+msgid "Manage OpenID Associations"
+msgstr "OpenID 연결 관리"
+
+#: templates/django_openid/associations.html:12
+#, python-format
+msgid ""
+"You have not set a password for this user account. You are unable to remove "
+"OpenID associations until you <a href=\"%(acct_passwd_set_url)s\">set a "
+"password</a>."
+msgstr "이 아이디에 암호를 설정하지 않으셨습니다. <a href=\"%(acct_passwd_set_url)s\">암호 설정</a>을 하지 않으면 OpenID 연결을 없앨 수 없습니다."
+
+#: templates/django_openid/associations.html:16
+#, python-format
+msgid ""
+"Your account is currently associated with the following OpenID %(buttons)s:"
+msgstr "이 아이디는 다음 OpenID와 연결되어 있습니다 %(buttons)s:"
+
+#: templates/django_openid/associations.html:26
+msgid "remove"
+msgstr "없애기"
+
+#: templates/django_openid/associations.html:33
+msgid "To associate a new OpenID with this account, sign in with it here:"
+msgstr "새 OpenID를 이 아이디에 연결시키기 위해, 아래에서 로그인하세요."
+
+#: templates/django_openid/associations.html:46
+msgid "Authenticate and associate with this account"
+msgstr "인증 및 이 아이디에 연결하기"
+
+#: templates/django_openid/error.html:5 templates/django_openid/error.html:8
+msgid "Error using OpenID"
+msgstr "OpenID 사용중 오류"
+
+#: templates/django_openid/login.html:8
+msgid "Login"
+msgstr "로그인"
+
+#: templates/django_openid/login.html:12
+msgid "Log In to OpenID"
+msgstr "OpenID로 로그인"
+
+#: templates/django_openid/register.html:6
+#: templates/django_openid/register.html:9
+msgid "Choose a Username"
+msgstr "아이디를 정하세요"
+
+#: templates/django_openid/register.html:12
+msgid "Please correct the errors below:"
+msgstr "잘못된 것들을 바로잡아 주세요:"
+
+#: templates/django_openid/register.html:15
+msgid ""
+"Now that you have logged in with your OpenID, we need you to choose a "
+"username for this site."
+msgstr "OpenID로 로그인이 잘 되었습니다. 이제 이 사이트에서 쓸 아이디를 골라주세요."
+
+#: templates/django_openid/register.html:30
+#, python-format
+msgid ""
+"<strong>Already have an account?</strong> <a "
+"href=\"%(acct_login_openid_url)s\">Log in</a> to associate your OpenID with "
+"your existing account."
+msgstr "<strong>아이디 이미 있으세요?</strong> OpenID를 이미 존재하는 아이디에 연결하기 위해 <a href=\"%(acct_login_openid_url)s\">로그인</a>하세요."
+
+#: templates/django_openid/register.html:31
+#, python-format
+msgid ""
+"By clicking &quot;Sign Up&quot;, you are indicating that you have read and "
+"agree to the <a href=\"%(terms_url)s\">Terms of Use</a> and <a "
+"href=\"%(privacy_url)s\">Privacy Policy</a>."
+msgstr "등록을 계속 진행하시면 <a href=\"%(terms_url)s\">이용 약관</a>과 <a href=\"%(privacy_url)s\">개인 정보 보호 정책</a>에 동의한 것으로 간주됩니다."
+
+#: templates/django_openid/registration_closed.html:5
+#: templates/django_openid/registration_closed.html:8
+msgid "Signup closed"
+msgstr "등록 기간이 아님"
+
+#: templates/django_openid/registration_closed.html:10
+msgid ""
+"Whoops, you can't register for an account now. This site is currently closed"
+" for sign-up."
+msgstr "이런, 지금은 등록하실 수 없습니다. 이 사이트는 현재 등록 기간이 아닙니다."
+
+#: templates/emailconfirmation/confirm_email.html:6
+msgid "Confirm Email"
+msgstr "이메일 확인"
+
+#: templates/emailconfirmation/confirm_email.html:10
+msgid "Email Confirmed"
+msgstr "이메일 확인됨"
+
+#: templates/emailconfirmation/confirm_email.html:12
+#, python-format
+msgid ""
+"You have confirmed that %(email)s is an email address for user "
+"'%(user_display)s'."
+msgstr "%(email)s 주소가 '%(user_display)s' 님의 이메일 주소라는 것을 확인했습니다."
+
+#: templates/emailconfirmation/confirm_email.html:14
+msgid "Invalid confirmation key."
+msgstr "잘못된 확인 키"
+
+#: templates/idios/_profile_form.html:12
+#: templates/idios/profile_edit_ajax.html:17
+msgid "Update"
+msgstr "고치기"
+
+#: templates/idios/_profile_form.html:13
+#: templates/idios/profile_edit_ajax.html:18
+msgid "Cancel"
+msgstr "취소"
+
+#: templates/idios/additional_info.html:5
+#: templates/idios/additional_info.html:8
+msgid "Additional Info"
+msgstr "추가 정보"
+
+#: templates/idios/additional_info.html:9
+msgid "Please fill out the following form so we know a little about you."
+msgstr "여러분에 대해 좀더 알 수 있도록 아래 공간을 채워주세요."
+
+#: templates/idios/additional_info.html:16
+#: templates/signup_codes/failure.html:20
+msgid "Submit"
+msgstr "확인"
+
+#: templates/idios/base.html:10
+msgid "Profile"
+msgstr "프로필"
+
+#: templates/idios/base.html:11
+msgid "Your Profile"
+msgstr "회원님의 프로필"
+
+#: templates/idios/base.html:12 templates/idios/profiles.html:7
+#: templates/idios/profiles.html.py:10
+msgid "All Profiles"
+msgstr "모든 프로필"
+
+#: templates/idios/profile.html:6 templates/idios/profile.html.py:11
+#, python-format
+msgid "Profile for %(page_user_display)s"
+msgstr "%(page_user_display)s 님의 프로필"
+
+#: templates/idios/profile.html:16
+msgid "Edit profile"
+msgstr "프로필 고치기"
+
+#: templates/idios/profile_edit.html:5 templates/idios/profile_edit.html:9
+#: templates/idios/profile_edit_ajax.html:5
+msgid "Edit Profile"
+msgstr "프로필 고치기"
+
+#: templates/idios/profile_edit_ajax_success.html:4
+msgid "Success!"
+msgstr "성공!"
+
+#: templates/idios/profile_edit_ajax_success.html:9
+msgid "Your profile has been successfully updated!"
+msgstr "프로필이 잘 고쳐졌습니다!"
+
+#: templates/idios/profile_edit_ajax_success.html:13
+msgid "Close"
+msgstr "닫기"
+
+#: templates/notification/base.html:13 templates/notification/base.html:14
+#: templates/notification/notices.html:8
+msgid "Notices"
+msgstr "공지"
+
+#: templates/notification/base.html:15
+#: templates/notification/notice_settings.html:9
+msgid "Settings"
+msgstr "설정"
+
+#: templates/notification/notice_settings.html:6
+msgid "Notification Settings"
+msgstr "알림 설정"
+
+#: templates/notification/notice_settings.html:15
+msgid "Primary email"
+msgstr "기본 이메일"
+
+#: templates/notification/notice_settings.html:17
+#, python-format
+msgid "change under <a href=\"%(email_url)s\">Account</a>"
+msgstr "<a href=\"%(email_url)s\">계정</a>에서 고치세요"
+
+#: templates/notification/notice_settings.html:21
+#, python-format
+msgid ""
+"\n"
+"                You do not have a verified email address to which notices can be sent.\n"
+"                You can add one by going to <a href=\"%(email_url)s\">Account</a>.\n"
+"                "
+msgstr "\n공지를 받을 확인된 이메일 주소가 아직 하나도 없습니다.\n<a href=\"%(email_url)s\">계정</a> 페이지에서 이메일 주소를 추가할 수 있습니다."
+
+#: templates/notification/notice_settings.html:32
+msgid "Notification Type"
+msgstr "공지 종류"
+
+#: templates/notification/notice_settings.html:50
+msgid "Change"
+msgstr "고치기"
+
+#: templates/notification/notices.html:15
+msgid "Mark all unseen notices seen"
+msgstr "모든 공직 읽음 표시"
+
+#: templates/notification/notices.html:21
+msgid "MONTH_DAY_FORMAT"
+msgstr "MONTH_DAY_FORMAT"
+
+#: templates/notification/notices.html:39
+msgid "No notices."
+msgstr "공지 없음."
+
+#: templates/pagination/pagination.html:8
+#: templates/pagination/pagination.html:11
+msgid "Previous"
+msgstr "이전"
+
+#: templates/pagination/pagination.html:21
+#: templates/pagination/pagination.html:23
+msgid "Next"
+msgstr "다음"
+
+#: templates/signup_codes/admin_invite_user.html:4
+msgid "Home"
+msgstr "홈"
+
+#: templates/signup_codes/admin_invite_user.html:4
+msgid "Invite user"
+msgstr "다른 사람 초대"
+
+#: templates/signup_codes/admin_invite_user.html:8
+msgid ""
+"Invite a user given an e-mail address. The user will be e-mailed a signup "
+"code to create their account on this website."
+msgstr "이메일 주소로 다른 사람을 초대하세요. 초대된 분은 사이트에 등록할 수 있는 코드가 담긴 초대장 이메일을 받게 됩니다."
+
+#: templates/signup_codes/failure.html:5 templates/signup_codes/failure.html:8
+msgid "Incorrect Code"
+msgstr "잘못된 코드"
+
+#: templates/signup_codes/failure.html:11
+#, python-format
+msgid "The code <b>%(code)s</b> is incorrect."
+msgstr "입력한 <b>%(code)s</b>는 잘못된 코드입니다."
+
+#: templates/signup_codes/failure.html:13
+msgid "You must specify a code."
+msgstr "코드를 입력해야 합니다."
+
+#: templates/signup_codes/failure.html:16
+msgid "Try again:"
+msgstr "다시 해보세요:"
+
+#: templates/signup_codes/invite_user.txt:1
+#, python-format
+msgid ""
+"You have been invited to sign up at %(domain)s.\n"
+"\n"
+"http://%(domain)s/account/signup/?code=%(signup_code.code)s"
+msgstr "%(domain)s 사이트에 초대되셨습니다.\n\nhttp://%(domain)s/account/signup/?code=%(signup_code.code)s"
+
+#: templates/signup_codes/invite_user_subject.txt:1
+#, python-format
+msgid "Create an account on %(domain)s"
+msgstr "%(domain)s 사이트에 등록하기"
+
+#: templates/waitinglist/list_signup.html:6
+#: templates/waitinglist/success.html:5
+msgid "Welcome"
+msgstr "어서오세요"
+
+#: templates/waitinglist/list_signup.html:10
+msgid "Sign up for the waiting list"
+msgstr "대기 목록에 줄서기"
+
+#: templates/waitinglist/list_signup.html:12
+msgid "Give us your email address and you'll be added to the waiting list"
+msgstr "이메일을 알려주시면 대기 목록에 추가됩니다"
+
+#: templates/waitinglist/success.html:9
+msgid "You have been added to the waiting list."
+msgstr "대기목록에 추가되셨습니다"
